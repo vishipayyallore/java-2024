@@ -16,6 +16,11 @@ public class HelloWorld {
         String position = "Park Manager";
         greeting = String.format("My name is %s and I want to be a %s in Mesozoic Eden.", name, position);
         displayMessage(greeting);
+
+        String openingHours = "08:00";
+        String closingHours = "20:00";
+        greeting = String.format("We open at %s and close at %s.", openingHours, closingHours);
+        displayMessage(greeting);
     }
 
     private static int doubleNumber(int input) {
