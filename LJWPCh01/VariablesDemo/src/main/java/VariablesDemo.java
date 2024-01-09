@@ -4,6 +4,8 @@ public class VariablesDemo {
         showVariablesDemo();
 
         showDinosaurDetails();
+
+        showDinosaurProfile();
     }
 
     private static void showVariablesDemo(){
@@ -22,11 +24,27 @@ public class VariablesDemo {
         double weight = 8000; //in kilograms
 
         //Print the variables
-        System.out.println("\nDinosaur Details");
+        System.out.println("\n***** Dinosaur Details *****");
         System.out.println(String.format("Breed: %s", breed));
         System.out.println(String.format("Height: %f meters", height));
-        System.out.println("Length: " + length + "m");
-        System.out.println("Weight: " + weight + "kg");
+        System.out.println(String.format("Length: %f meters", length));
+        System.out.println(String.format("Weight: %f Kilograms", weight));
     }
 
+    private static void showDinosaurProfile(){
+        //Declare variables
+        String dinoName = "Rexy";
+        int dinoAge = 7; //in years
+        String species = "T-Rex";
+        String diet = "Carnivore";
+        double weight = 8000; //in kilograms
+
+        //Print the variables
+        System.out.println("\n***** Dinosaur Profile *****");
+        System.out.println(String.format("Name: %s", dinoName));
+        System.out.println(String.format("Age: %d years", dinoAge));
+        System.out.println(String.format("Species: %s", species));
+        System.out.println(String.format("Diet: %s", diet));
+        System.out.println(String.format("Weight: %f Kilograms", weight));
+    }
 }
