@@ -22,14 +22,14 @@ public class VariablesDemo {
     }
 
     private static void showDinosaurDetails(){
-        String name = "Rexy";
+        String name = "Rex D";
         int age = 7; //in years
         String breed = "T-Rex";
         double height = 12.3; //in meters
         double length = 20.2; //in meters
         double weight = 8000; //in kilograms
         boolean isCarnivore = true;
-        char speciesFirstLetter = 'T'; //First letter of T-Rex
+        char speciesFirstLetter = 'T'; //First letter of T.Rex
 
         //Print the variables
         System.out.println("\n***** Dinosaur Details *****");
@@ -40,7 +40,7 @@ public class VariablesDemo {
         System.out.printf("Length: %f meters%n", length);
         System.out.printf("Weight: %f Kilograms%n", weight);
         System.out.printf("isCarnivore: %s%n", isCarnivore);
-        System.out.printf("First letter of Finosaur species: %c%n", speciesFirstLetter);
+        System.out.printf("First letter of Dinosaur species: %c%n", speciesFirstLetter);
         System.out.println("---------------------------------\n");
     }
 
@@ -59,7 +59,7 @@ public class VariablesDemo {
 
     private static void showDinosaurProfile(){
         //Declare variables
-        String dinoName = "Rexy";
+        String dinoName = "Rex D";
         int dinoAge = 7; //in years
         String species = "T-Rex";
         String diet = "Carnivore";
