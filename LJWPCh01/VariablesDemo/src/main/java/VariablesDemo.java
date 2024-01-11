@@ -3,9 +3,9 @@ public class VariablesDemo {
     public static void main(String[] args){
         showVariablesDemo();
 
-        showDinosaurDetailsV1();
+        showDinosaurDetails();
 
-        showDinosaurDetailsV2();
+        showMesozoicEdenDetails();
 
         showDinosaurProfile();
     }
@@ -21,34 +21,40 @@ public class VariablesDemo {
         System.out.println("---------------------------------\n");
     }
 
-    private static void showDinosaurDetailsV1(){
+    private static void showDinosaurDetails(){
+        String name = "Rexy";
+        int age = 7; //in years
         String breed = "T-Rex";
         double height = 12.3; //in meters
         double length = 20.2; //in meters
         double weight = 8000; //in kilograms
+        boolean isCarnivore = true;
+        char speciesFirstLetter = 'T'; //First letter of T-Rex
 
         //Print the variables
-        System.out.println("\n***** Dinosaur Details V1 *****");
+        System.out.println("\n***** Dinosaur Details *****");
+        System.out.printf("Name: %s%n", name);
+        System.out.printf("Age: %d meters%n", age);
         System.out.printf("Breed: %s%n", breed);
         System.out.printf("Height: %f meters%n", height);
         System.out.printf("Length: %f meters%n", length);
         System.out.printf("Weight: %f Kilograms%n", weight);
+        System.out.printf("isCarnivore: %s%n", isCarnivore);
+        System.out.printf("First letter of Finosaur species: %c%n", speciesFirstLetter);
         System.out.println("---------------------------------\n");
     }
 
-    private static void showDinosaurDetailsV2(){
-        int age = 7; //in years
-        String name = "Rexy";
-        boolean isCarnivore = true;
+    private static void showMesozoicEdenDetails(){
         int maxVisitors = 10000; //per day
+        int numberOfDinosaurs = 50;
+        int safetyRating = 9; //on a scale of 1 to 10
 
         //Print the variables
-        System.out.println("\n***** Dinosaur Details V2 *****");
-        System.out.printf("Name: %s%n", name);
-        System.out.printf("Age: %d meters%n", age);
-        System.out.printf("isCarnivore: %s%n", isCarnivore);
+        System.out.println("\n***** Mesozoic Eden Park Details *****");
         System.out.printf("There's a maximum of %s people allowed in Mesozoic Eden.%n", maxVisitors);
-        System.out.println("---------------------------------\n");
+        System.out.printf("Number of Dinosaurs in the Mesozoic Eden Park is %d%n", numberOfDinosaurs);
+        System.out.printf("Mesozoic Eden Park's Rating is %d/10", safetyRating);
+        System.out.println("\n---------------------------------\n");
     }
 
     private static void showDinosaurProfile(){
