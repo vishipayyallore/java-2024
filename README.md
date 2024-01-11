@@ -8,3 +8,8 @@ I am learning Java from different Video Courses, Books, and Websites
 javac Main.java
 java Main
 ```
+
+## References
+
+> 1. <https://www.javatpoint.com/java-variables>
+> 1. <https://www.javatpoint.com/java-string-format>
