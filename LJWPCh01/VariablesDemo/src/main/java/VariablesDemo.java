@@ -29,10 +29,10 @@ public class VariablesDemo {
 
         //Print the variables
         System.out.println("\n***** Dinosaur Details V1 *****");
-        System.out.println(String.format("Breed: %s", breed));
-        System.out.println(String.format("Height: %f meters", height));
-        System.out.println(String.format("Length: %f meters", length));
-        System.out.println(String.format("Weight: %f Kilograms", weight));
+        System.out.printf("Breed: %s%n", breed);
+        System.out.printf("Height: %f meters%n", height);
+        System.out.printf("Length: %f meters%n", length);
+        System.out.printf("Weight: %f Kilograms%n", weight);
         System.out.println("---------------------------------\n");
     }
 
@@ -40,12 +40,14 @@ public class VariablesDemo {
         int age = 7; //in years
         String name = "Rexy";
         boolean isCarnivore = true;
+        int maxVisitors = 10000; //per day
 
         //Print the variables
         System.out.println("\n***** Dinosaur Details V2 *****");
-        System.out.println(String.format("Name: %s", name));
-        System.out.println(String.format("Age: %d meters", age));
-        System.out.println(String.format("isCarnivore: %s", isCarnivore));
+        System.out.printf("Name: %s%n", name);
+        System.out.printf("Age: %d meters%n", age);
+        System.out.printf("isCarnivore: %s%n", isCarnivore);
+        System.out.printf("There's a maximum of %s people allowed in Mesozoic Eden.%n", maxVisitors);
         System.out.println("---------------------------------\n");
     }
 
@@ -59,11 +61,11 @@ public class VariablesDemo {
 
         //Print the variables
         System.out.println("\n***** Dinosaur Profile *****");
-        System.out.println(String.format("Name: %s", dinoName));
-        System.out.println(String.format("Age: %d years", dinoAge));
-        System.out.println(String.format("Species: %s", species));
-        System.out.println(String.format("Diet: %s", diet));
-        System.out.println(String.format("Weight: %f Kilograms", weight));
+        System.out.printf("Name: %s%n", dinoName);
+        System.out.printf("Age: %d years%n", dinoAge);
+        System.out.printf("Species: %s%n", species);
+        System.out.printf("Diet: %s%n", diet);
+        System.out.printf("Weight: %f Kilograms%n", weight);
         System.out.println("---------------------------------\n");
     }
 }
